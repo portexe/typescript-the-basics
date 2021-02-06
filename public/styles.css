@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#submitButton {
+  display: none;
+  padding: 7px;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+#startButton {
+  padding: 7px;
+  width: 100%;
+}
+
+#answersSelect {
+  padding: 7px;
+  width: 100%;
+  display: none;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#questionText {
+  display: none;
+  padding: 7px;
+  margin-bottom: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#score {
+  display: none;
+}
